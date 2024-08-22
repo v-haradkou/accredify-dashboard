@@ -1,0 +1,7 @@
+export { default as HomeIcon } from './home.svg?react'
+export { default as Defense } from './defense.svg?react'
+export { default as Light } from './light.svg?react'
+export { default as Settings } from './settings.svg?react'
+export { default as List } from './list.svg?react'
+export { default as DocumentFill } from './document-fill.svg?react'
+export { default as Options } from './options.svg?react'

@@ -1,0 +1,26 @@
+:root {
+    --background-color: #151F32;
+    --white: #FFFFFF;
+    --background-color-active: #353D4E;
+
+    --border-color: #D0D2D6
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: #493DF5 !important;
+}
+
+.CircularProgressbar-text {
+    fill: #493DF5 !important;
+}

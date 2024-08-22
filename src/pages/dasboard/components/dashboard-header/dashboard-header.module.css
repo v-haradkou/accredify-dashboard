@@ -1,0 +1,20 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px 32px;
+    border-top-left-radius: 15px;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.nameContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.nameContainer p {
+    text-wrap: nowrap;
+}

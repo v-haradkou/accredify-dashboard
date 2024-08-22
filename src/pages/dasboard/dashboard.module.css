@@ -1,0 +1,113 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--white);
+    border-top-left-radius: 15px;
+
+}
+
+.content {
+    max-width: 1100px;
+    width: 100%;
+}
+
+.wrapper {
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.progressIndicator {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 24px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 56px;
+    gap: 32px
+}
+
+.GaolPartTitle {
+    margin-bottom: 16px;
+}
+
+.goalText {
+    color: black;
+}
+
+.goalWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 32px 40px;
+}
+
+.goalTitle {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+
+    text-align: center;
+}
+
+.carerProgressTitle {
+    color: #5B6270;
+    margin-bottom: 24px;
+}
+
+
+.goalLink {
+    color: #493DF5;
+    font-weight: 700;
+}
+
+.table {
+    width: 100%;
+    border: none;
+}
+
+.tableNameRow {
+    font-weight: 700 !important;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tableHeader {
+    display: flex;
+}
+
+.tableContainer {
+    border: 1px solid var(--border-color);
+    padding: 32px 24px;
+    border-radius: 6px;
+    height: calc(100% - 48px);
+}
+
+.tableTitle {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.tableLink {
+    font-weight: 700;
+    color: #493DF5;
+}
+
+.tableTitleContainer {
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+}
+
+.title {
+    padding-bottom: 8px;
+}
